@@ -1,0 +1,193 @@
+/* Estilo geral */
+body {
+	font-family: "Zalando Sans Expanded", sans-serif; /* Define a fonte principal do site */
+	background-color: #fff; /* Cor de fundo branca */
+	color: #222; /* Cor padrão do texto */
+	margin: 0; /* Remove margens padrão */
+	padding: 0; /* Remove espaçamento interno padrão */
+}
+
+/* Cabeçalho */
+header {
+    background-color: #d60000; /* Fundo vermelho do cabeçalho */
+    color: white; /* Texto branco */
+    text-align: center; /* Centraliza o conteúdo horizontalmente */
+    padding: 20px; /* Espaçamento interno */
+}
+
+/* Título dentro do cabeçalho */
+header h1 {
+    margin: 0; /* Remove margens padrão */
+    font-size: 2em; /* Aumenta o tamanho do texto */
+    text-transform: uppercase; /* Deixa o texto em letras maiúsculas */
+}
+
+/* Menu de navegação */
+nav ul {
+    list-style-type: none; /* Remove marcadores da lista */
+    margin: 0; /* Remove margens */
+    padding: 0; /* Remove espaçamentos internos */
+    overflow: hidden; /* Impede que elementos escapem do container */
+}
+
+nav ul li {
+    display: inline-block; /* Coloca os itens lado a lado */
+}
+
+nav ul li a {
+    color: white; /* Texto dos links em branco */
+    text-decoration: none; /* Remove sublinhado */
+    padding: 15px 20px; /* Espaçamento interno */
+    display: inline-block; /* Mantém formato de botão */
+    background-color: #000; /* Fundo preto */
+    border-radius: 10px; /* Arredonda as bordas dos links */
+}
+
+nav ul li a:hover {
+    background-color: #fff; /* Muda fundo para branco ao passar o mouse */
+    color: #d60000; /* Texto fica vermelho no hover */
+    border-radius: 10px; /* Mantém as bordas arredondadas */
+}
+
+/* Conteúdo principal */
+main {
+    padding: 20px; /* Espaçamento interno */
+    text-align: center; /* Centraliza títulos e conteúdo */
+    display: flex; /* Ativa o flexbox */
+    flex-direction: column; /* Organiza elementos em coluna */
+    align-items: center; /* Centraliza conteúdos no eixo horizontal */
+}
+
+main h2 {
+    color: #d60000; /* Títulos secundários em vermelho */
+}
+
+main p {
+    line-height: 1.6; /* Aumenta espaçamento entre linhas */
+    display: flex; /* Flexbox aplicado ao parágrafo */
+    justify-content: center;  /* Centraliza conteúdo horizontalmente */
+    align-items: center;   /* Centraliza conteúdo verticalmente */
+}
+
+/* Imagens */
+img {
+    max-width: 600px; /* Limite máximo de largura */
+    width: 500px; /* Tamanho base das imagens */
+    display: block; /* Faz a imagem ocupar a linha toda */
+    border-radius: 10px; /* Bordas arredondadas */
+    margin: 15px 0; /* Espaçamento vertical */
+    border: 10px solid #d60000; /* Borda espessa vermelha */
+    transition: transform .3s ease; /* Animação ao passar o mouse */
+}
+
+img:hover {
+    transform: scale(1.04); /* Aumenta levemente a imagem no hover */
+}
+
+figure {
+    display: flex; /* Flexbox para o container da imagem */
+    flex-direction: column; /* Elementos empilhados verticalmente */
+    align-items: center; /* Centraliza todo conteúdo */
+}
+
+/* Listas */
+ul {
+   
+    display: inline-block; /* Centraliza mantendo conteúdo alinhado */
+    margin: 20px auto; /* Espaçamento externo e centralização */
+    width: 80%; /* Largura da lista */
+    list-style: none; /* Remove marcadores */
+}
+
+/* Tabelas */
+table {
+    border-collapse: collapse; /* Remove separação entre bordas */
+    margin: 20px auto; /* Centraliza tabela e adiciona margem */
+    width: 80%; /* Largura padrão */
+}
+
+table, th, td {
+    border: 2px solid #d60000; /* Borda vermelha nas células */
+}
+
+th {
+    background-color: #000; /* Cabeçalho com fundo preto */
+    color: white; /* Texto branco */
+    padding: 10px; /* Espaçamento interno */
+}
+
+td {
+    padding: 10px; /* Espaçamento interno das células */
+}
+
+/* Formulário */
+form {
+    background-color: #f8f8f8; /* Fundo cinza claro */
+    border: 2px solid #d60000; /* Borda vermelha */
+    border-radius: 10px; /* Bordas arredondadas */
+    padding: 20px; /* Espaçamento interno */
+    width: 60%; /* Largura do formulário */
+    margin: 20px auto; /* Centraliza o formulário */
+    text-align: left; /* Alinha texto dentro do formulário */
+}
+
+input, textarea, button {
+    width: 97%; /* Quase toda a largura do container */
+    padding: 10px; /* Espaçamento interno */
+    margin-top: 8px; /* Espaço acima */
+    margin-bottom: 15px; /* Espaço abaixo */
+    border: 1px solid #ccc; /* Borda cinza clara */
+    border-radius: 5px; /* Bordas arredondadas */
+}
+
+button {
+    background-color: #d60000; /* Fundo vermelho */
+    color: white; /* Texto branco */
+    font-weight: bold; /* Texto em negrito */
+    border: none; /* Remove borda padrão */
+    cursor: pointer; /* Muda o cursor para mãozinha */
+}
+
+button:hover {
+    background-color: #000; /* Botão fica preto ao passar o mouse */
+}
+
+/* Rodapé */
+footer {
+    background-color: #000 ; /* Fundo preto */
+    color: white; /* Texto branco */
+    text-align: center; /* Centraliza o texto */
+    padding: 15px; /* Espaçamento interno */
+    margin-top: 30px; /* Espaço acima do rodapé */
+}
+
+/* Estilos para a página Sobre */
+main h2 {
+    color: #d60000; /* Vermelho */
+    font-size: 1.8em; /* Tamanho maior */
+    margin-bottom: 15px; /* Espaço abaixo */
+    text-transform: uppercase; /* Letras maiúsculas */
+    border-bottom: 3px solid #000; /* Linha preta abaixo */
+    display: inline-block; /* Ajusta largura ao texto */
+    padding-bottom: 5px; /* Espaço entre texto e borda */
+}
+
+main h3 {
+    color: #000; /* Título preto */
+    font-size: 1.4em; /* Tamanho do subtítulo */
+    margin-top: 25px; /* Espaço superior */
+}
+
+main p {
+    color: #222; /* Cor do texto */
+    font-size: 1.1em; /* Tamanho da fonte */
+    line-height: 1.6; /* Altura da linha */
+    text-align: justify; /* Texto justificado */
+    margin: 10px auto; /* Margem vertical e centralização */
+    width: 80%; /* Largura do parágrafo */
+}
+
+/* Classe para imagens menores (como escudos) */
+.escudo {
+    width: 100px; /* Define largura fixa de 100px */
+}

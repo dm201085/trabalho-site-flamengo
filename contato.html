@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Zalando+Sans+Expanded:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="style.css">
+	<title>Contato - Clube de Regatas do Flamengo</title>
+</head>
+<body>
+	<!--cabeçalho-->
+	<header>
+		<h1>Clube de Regatas do Flamengo</h1>
+		<nav>
+			<ul>
+				<li><a href="index.html">Início</a></li>
+				<li><a href="sobre.html">Sobre</a></li>
+				<li><a href="galeria.html">Galeria</a></li>
+				<li><a href="curiosidade.html">Curiosidade</a></li>
+		 		<li><a href="contato.html">Contato</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<!-- Conteúdo Principal -->
+	<main>
+		<h2>Entre em Contato</h2>
+		<p>Quer saber mais sobre o Flamengo ou deixar uma mensagem para o criador deste site?
+		preencha o formulário abaixo:</p>
+
+		<form id="form-contato" >
+			<label for="nome">Nome:</Label><br>
+			<input type="text" id="nome" name="nome" placeholder="Digite seu nome" required><br><br>
+
+			<label for="email">E-mail:</label><br>
+			<input type="email" id="email" name="email" placeholder="Digite seu e-mail" required><br><br>
+
+			<label for ="mensagem">mensagem:</label><br>
+			<textarea id="mensagem" name="mesagem" rows="5" palceholder="Escreva sua mensagem aqui..."  required></textarea><br><br>
+
+			<button type="submit">Enviar</button>
+		</form>
+
+		<h3>📍Informações de Contato</h3>
+		<p><strong>Endereço:</strong> Av. Governador Raul barbosa, 726 - Russas, Ceará - CE</p>
+        	<p><strong>Telefone:</strong> (21) 1234-5678</p>
+    	    	<p><strong>E-mail:</strong> contato@flamengo.com.br</p>
+
+		<img src="imagens/torcida com bandeiras.jpg" alt="torcida do Flamengo com bandeiras">
+	</main>
+
+	<!--Rodapé-->
+	<footer>
+		<p>Desenvolvido por Débora Emily da Silva Dantas - Técnico de informática</p>
+	</footer>
+	<script src="contato.js"></script>
+
+</body>
+</html>
+
